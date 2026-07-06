@@ -1,0 +1,7 @@
+interface:
+  display_name: "Video Frame Analysis"
+  short_description: "Extract frames for video analysis."
+  default_prompt: "Use $video-frame-analysis to analyze this video by extracting ordered frames, preserving timestamps, and returning a frame-by-frame or segment timeline."
+
+policy:
+  allow_implicit_invocation: true
